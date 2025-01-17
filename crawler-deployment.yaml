@@ -5,7 +5,7 @@ metadata:
   labels:
     app: synergychat-crawler
   name: synergychat-crawler
-  namespace: default
+  namespace: crawler
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
